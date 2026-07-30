@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>By The Way Cafe | Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .hero-banner {
+            background-color: #FFFACD;
+            padding: 40px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .hero-banner img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .hero-text h1 {
+            margin: 0 0 8px 0;
+            font-size: 2.5rem;
+        }
+
+        .hero-text .tagline {
+            margin: 0;
+            font-size: 18px;
+            font-style: italic;
+            color: #d9381e;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="menu.html">Menu</a> | <a
+                href="promotion.html">Promotion</a> | <a href="catering.html">Catering</a> | <a
+                href="gallery.html">Gallery</a> | <a href="review.html">Review</a> | <a href="careers.html">Careers</a>
+            | <a href="faq.html">FAQ</a> | <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-banner">
+            <img src="media/logo.png" alt="By The Way Cafe Logo">
+            <div class="hero-text">
+                <h1>By The Way Cafe</h1>
+                <p class="tagline">by the way, just be your own way</p>
+            </div>
+        </div>
+
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> Pauh Tiga Beradik, 62, 02700 Simpang Ampat, Perlis</p>
+        <p><strong>Phone:</strong> +60129292695 | <strong>Email:</strong> bythewaycafe25@gmail.com</p>
+        <p><strong>Facebook:</strong> By The Way Cafe | <strong>Instagram:</strong> @cafe_bytheway</p>
+        <p><strong>Tiktok:</strong> @ by.the.way.cafe | <strong>Threads:</strong> @cafe_bytheway</p>
+        <hr>
+        <h3>Send Us a Message</h3>
+
+        <form action="#" method="POST">
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Ali bin Abu" minlength="3" maxlength="50"
+                required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="aliabu@example.com" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="0123456789" pattern="[0-9]{10,11}" required><br><br>
+
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" minlength="5" maxlength="100" required><br><br>
+
+            <label for="msg">Message:</label><br>
+            <textarea id="msg" name="msg" rows="5" minlength="10" maxlength="500" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 By The Way Cafe. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

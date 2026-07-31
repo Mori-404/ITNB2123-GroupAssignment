@@ -9,4 +9,4 @@
 
 ## Live Links:
 _add more as project develops_
-* Vercel deployment (Frontend): [itnb-2123-group-assignment.vercel.app](https:/itnb-2123-group-assignment.vercel.app).
+* Vercel deployment (Frontend): [itnb-2123-group-assignment.vercel.app](https://itnb-2123-group-assignment.vercel.app).

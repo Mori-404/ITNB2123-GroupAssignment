@@ -1,5 +1,5 @@
 # Group 8 WebApplication 
-## **By The Way Cafe** Project Repo
+## *By The Way Cafe* Project Repo
 | Member Name | Role Title | Tasks | 
 | :--- | :--- | :--- | 
 | **Syahmi** | *PMO* | Manages GIT | 
@@ -9,4 +9,4 @@
 
 ## Live Links:
 _add more as project develops_
-* Vercel deployment (Frontend): itnb-2123-group-assignment.vercel.app
+* Vercel deployment (Frontend): [itnb-2123-group-assignment.vercel.app](https:/itnb-2123-group-assignment.vercel.app).

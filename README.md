@@ -7,7 +7,7 @@
 | **Kavusigan** | *Backend* | Constructs API endpoints, Express routing, and server logic | 
 | **Syamil** | *Database Administrator* | Designs database, manages connection strings, and configs tables | 
 
-##TODO
+## TODO LIST
 * Frontend:
     1. Add images to the menu / table sections.
     2. Implement interactive navigation features across the site.

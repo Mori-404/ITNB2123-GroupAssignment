@@ -27,7 +27,7 @@ _add more as project develops_
 - Review Form Handler: https://bythewaycafe.infinityfree.io/review_insert.php
 * InfinityFree deployment (Database):  https://dash.infinityfree.com/accounts/if0_42565904
 
-###Database Information:
+### Database Information:
 - Host: sql209.infinityfree.com 
 - Database: if0_42565904_bytheway_cafe 
 - Username: if0_42565904 

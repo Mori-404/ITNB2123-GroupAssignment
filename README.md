@@ -21,3 +21,7 @@
 ## Live Links:
 _add more as project develops_
 * Vercel deployment (Frontend): [itnb-2123-group-assignment.vercel.app](https://itnb-2123-group-assignment.vercel.app).
+
+* InfinityFree deployment (Backend): 
+- contact_insert.php: https://bythewaycafe.infinityfree.io/contact_insert.php
+- review_insert.php: https://bythewaycafe.infinityfree.io/review_insert.php

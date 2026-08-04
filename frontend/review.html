@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>By The Way Cafe | Review</title>
     <link rel="stylesheet" href="css/style.css">
@@ -53,12 +54,31 @@
                 <p class="tagline">by the way, just be your own way</p>
             </div>
         </div>
-
         <h2>Customer Reviews</h2>
-        <p>Here are some sample reviews that reflect the dining experience at By The Way Cafe:</p>
-        <img src="media/review 1.png" alt="Chicken Chop" width="300">
-        <img src="media/review 2.png" alt="Chicken Chop" width="300">
+        <p>Please leave a rating after dining at By The Way Cafe.</p>
+        <form action="review_insert.php" method="POST">
 
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Ali bin Abu" minlength="3" maxlength="50"
+                required><br><br>
+
+            <label for="rating">Rating:</label><br>
+            <select id="rating" name="rating" required>
+                <option value="">-- Select Rating --</option>
+                <option value="1">1 star</option>
+                <option value="2">2 star</option>
+                <option value="3">3 star</option>
+                <option value="4">4 star</option>
+                <option value="5">5 star</option>
+            </select><br><br>
+
+
+            <label for="comment">Comment:</label><br>
+            <textarea id="comment" name="comment" rows="5" minlength="10" maxlength="500" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
 
     </main>
     <footer>

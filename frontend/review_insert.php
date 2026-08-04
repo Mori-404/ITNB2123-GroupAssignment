@@ -6,10 +6,10 @@ $comment = trim($_POST['comment']);
 
 if (!empty($name) && !empty($rating) && !empty($comment)) {
 
-    $host = "localhost";
-    $dbUsername = "root";
-    $dbPassword = "";
-    $dbname = "bytheway_cafe";
+    $host = "sql209.infinityfree.com";
+    $dbUsername = "if0_42565904";
+    $dbPassword = "nZzPl3EGVrkt6";
+    $dbname = "if0_42565904_bytheway_cafe";
 
     $conn = new mysqli($host, $dbUsername, $dbPassword, $dbname);
 

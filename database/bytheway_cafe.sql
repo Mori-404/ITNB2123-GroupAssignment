@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 02, 2026 at 01:59 PM
+-- Generation Time: Aug 05, 2026 at 10:20 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -26,6 +26,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `contact`
 --
+
 CREATE TABLE `contact` (
   `id` int(11) NOT NULL,
   `full_name` varchar(100) NOT NULL,
@@ -34,6 +35,13 @@ CREATE TABLE `contact` (
   `subject` varchar(150) NOT NULL,
   `message` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `contact`
+--
+
+INSERT INTO `contact` (`id`, `full_name`, `email`, `phone_number`, `subject`, `message`) VALUES
+(1, 'Test', 'test@gmail.com', '0123456789', 'Testing', 'This is just a test');
 
 -- --------------------------------------------------------
 
@@ -44,7 +52,7 @@ CREATE TABLE `contact` (
 CREATE TABLE `review` (
   `id` int(11) NOT NULL,
   `full_name` varchar(100) NOT NULL,
-  `rating` int(11) NOT NULL,
+  `rating` int(1) NOT NULL,
   `comment` text NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -57,7 +65,7 @@ CREATE TABLE `review` (
 -- Indexes for table `contact`
 --
 ALTER TABLE `contact`
-  ADD PRIMARY KEY (`id`) USING BTREE;
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `review`
@@ -79,7 +87,7 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `review`
 --
 ALTER TABLE `review`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

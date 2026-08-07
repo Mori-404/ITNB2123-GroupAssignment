@@ -22,15 +22,16 @@
 _add more as project develops_
 * Vercel deployment (Frontend): [itnb-2123-group-assignment.vercel.app](https://itnb-2123-group-assignment.vercel.app).
 
-* Backend (InfinityFree)
-- Contact Form Handler: https://bythewaycafe.infinityfree.io/contact_insert.php
-- Review Form Handler: https://bythewaycafe.infinityfree.io/review_insert.php
-* InfinityFree deployment (Database):  https://dash.infinityfree.com/accounts/if0_42565904
+* Obsolete 
+* ~~Backend (InfinityFree)~~
+- ~~Contact Form Handler: https://bythewaycafe.infinityfree.io/contact_insert.php~~
+- ~~Review Form Handler: https://bythewaycafe.infinityfree.io/review_insert.php~~
+* ~~InfinityFree deployment (Database):  https://dash.infinityfree.com/accounts/if0_42565904~~
 
 ### Database Information:
-- Host: sql209.infinityfree.com 
-- Database: if0_42565904_bytheway_cafe 
-- Username: if0_42565904 
-- Password: nZzPl3EGVrkt6
+- ~~Host: sql209.infinityfree.com~~ 
+- ~~Database: if0_42565904_bytheway_cafe~~ 
+- ~~Username: if0_42565904~~
+- ~~Password: nZzPl3EGVrkt6~~
 
 * Note: Database credentials are private and should not be shared publicly.

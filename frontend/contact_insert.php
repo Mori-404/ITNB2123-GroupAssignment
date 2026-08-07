@@ -5,7 +5,7 @@ $phone_number = $_POST['phone'];
 $subject = $_POST['subject'];
 $msg = $_POST['msg'];
 
-if (!empty($name) || !empty($email) || !empty($phone_number) || !empty($subject) || !empty($msg)) {
+if (!empty($name) && !empty($email) && !empty($phone_number) && !empty($subject) && !empty($msg)) {
     $host = "localhost";
     $dbUsername = "root";
     $dbPassword = "";
@@ -22,11 +22,14 @@ if (!empty($name) || !empty($email) || !empty($phone_number) || !empty($subject)
 
         //prepare statement
         $stmt = $conn->prepare($SELECT);
-        $stmt->bind_param("s", $email);
-        $stmt->execute();
-        $stmt->bind_result($email);
-        $stmt->store_result();
-        $rnum = $stmt->num_rows;
+$stmt->bind_param("s", $email);
+$stmt->execute();
+
+$existingEmail = "";
+$stmt->bind_result($existingEmail);
+$stmt->store_result();
+
+$rnum = $stmt->num_rows;
 
         if ($rnum==0) {
             $stmt->close();
@@ -34,7 +37,7 @@ if (!empty($name) || !empty($email) || !empty($phone_number) || !empty($subject)
             $stmt = $conn->prepare($INSERT);
             $stmt->bind_param("sssss", $name, $email, $phone_number, $subject, $msg);
             $stmt->execute();
-            echo "New record inserted sucessfully";
+            echo "New record inserted successfully";
         } else {
             echo "Someone already register using this email";
         }

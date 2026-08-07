@@ -26,6 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `contact`
 --
+CREATE DATABASE IF NOT EXISTS bytheway_cafe;
+USE bytheway_cafe;
 
 CREATE TABLE `contact` (
   `id` int(11) NOT NULL,

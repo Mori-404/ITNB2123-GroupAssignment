@@ -1,5 +1,7 @@
-```php
 <?php
+// Temporary debug: show errors while testing (remove or disable in production)
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
 // Only allow POST requests
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -132,6 +134,4 @@ if ($stmt->execute()) {
 
 $stmt->close();
 $conn->close();
-
 ?>
-```
